@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: url(https://fonts.google.com/specimen/Lexend+Deca);
+    background-color: hsl(0, 0%, 95%);
+    padding-bottom: 38px;
+}
+
+header {
+    /* top: 0; */
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: brown;
+    padding: 10px;
+    color: rgb(214, 187, 145);
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: rgb(214, 187, 145);
+    text-decoration: none;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.288);
+    box-shadow: rgba(0, 0, 0, 0.8);
+    border-radius: 2px;
+}
+
+.position {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+main {
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+
+p {
+    padding: 5px;
+    color: hsla(0, 0%, 100%, 0.75);
+    /* font-weight: 400; */
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+
+.place {
+    margin: 50px;
+}
+
+.sedan {
+    border-radius: 5px 0px 0px 5px;
+    width: 300px;
+    height: 400px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    width: 300px;
+    height: 400px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    width: 300px;
+    height: 400px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+#btn1 {
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    color: hsl(31, 77%, 52%);
+    border: none;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#btn1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px hsla(0, 0%, 95%, 0.712) solid;
+    cursor: pointer;
+}
+
+#btn2 {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%);
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#btn2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    border: 2px hsla(0, 0%, 95%, 0.712) solid;
+}
+
+#btn3 {
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    justify-content: center;
+    margin-top: 80px;
+    color: hsl(179, 100%, 13%);
+}
+
+#btn3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    border: 2px hsla(0, 0%, 95%, 0.712) solid;
+}
+
+footer {
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    color: blanchedalmond;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {}
+
+
+/* -------------------GRID.HTML--------------------- */
+
+.container2 {
+    width: 50%;
+    margin: 8vh auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .container2 {
+        width: 30%;
+    }
+    .grid_container {
+        width: 50%;
+    }
+}
+
+.grid_container {
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.623);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.925);
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 400px;
+    gap: 10px;
+}
+
+.upper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 64% 34%;
+}
+
+.lower {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 45% 53%;
+}
+
+.joined {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.box1 {
+    background-color: rgba(231, 62, 10, 0.842);
+}
+
+.box2 {
+    background-color: rgba(255, 217, 0, 0.664);
+    /* height: 250px; */
+}
+
+.box3 {
+    /* grid-row: span 2; */
+    /* height: 300px; */
+    background-color: rgb(3, 167, 71);
+}
+
+.box4 {
+    /* height: 140px; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(6, 226, 255, 0.808);
+    ;
+}
+
+.box5 {
+    /* height: 150px; */
+    background-color: rgba(6, 226, 255, 0.808);
+}
