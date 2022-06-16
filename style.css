@@ -152,7 +152,7 @@ footer {
     width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 395px) {
 main .container {
     width:90%
 }
@@ -165,7 +165,7 @@ main .container {
     margin: 8vh auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 395px) {
     main .container2 {
         width: 90%;
     }
@@ -226,7 +226,7 @@ main .container {
     display: grid;
     grid-template-rows: 1fr 1fr;
     background-color: rgba(6, 226, 255, 0.808);
-    ;
+    ; I 
 }
 
 .box5 {
