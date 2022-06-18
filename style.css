@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: url(https://fonts.google.com/specimen/Lexend+Deca);
+/*     font-family: url(https://fonts.google.com/specimen/Lexend+Deca); */
     background-color: hsl(0, 0%, 95%);
     padding-bottom: 38px;
 }
@@ -53,7 +53,7 @@ main {
 
 main .container {
     display: flex;
-    background-color: red;
+/*     background-color: red; */
     /* width: 80%; */
     justify-content: center;
     margin: 0 auto;
