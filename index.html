@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
     <title>CSS Flexbox and Grid Layout</title>
     <link rel="icon" href="images/favicon-32x32.png" type="image/x-icons">
     <link rel="stylesheet" href="style.css">
@@ -13,46 +16,31 @@
 <body>
     <header>
         <h1>Yhujay</h1>
-        <ul class="position">
-            <li>
-                <a href="index.html"> FlexBox</a>
-            </li>
-            <li>
-                <a href="grid.html"> Grid</a>
-            </li>
-        </ul>
+        <div class="position">
+            <a href="index.html"> FlexBox</a>
+            <a href="grid.html"> Grid</a>
+        </div>
     </header>
     <main>
         <div class="container">
-            <div class="sedan">
-                <div class="place">
+            <div class="place">
+                <div class="sedan">
                     <img src="images\icon-sedans.svg" alt="logo">
                     <h2>SEDANS</h2>
-                    <p>
-                        Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next trip.
-                    </p>
-                    <button id="btn1">Learn more</button>
+                    <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next trip.</p>
+                    <button class="btn">Learn more</button>
                 </div>
-            </div>
-            <div class="suv">
-                <div class="place">
+                <div class="suv">
                     <img src="images\icon-suvs.svg" alt="logo">
                     <h2>SUVs</h2>
-                    <p>
-                        Take an SUV for its spacious interior, power and versatility. Perfect for yur next family vacation and off-road adventures.
-                    </p>
-                    <button id="btn2">Learn more</button>
-
+                    <p>Take an SUV for its spacious interior, power and versatility. Perfect for yur next family vacation and off-road adventures.</p>
+                    <button class="btn">Learn more</button>
                 </div>
-            </div>
-            <div class="luxury">
-                <div class="place">
+                <div class="luxury">
                     <img src="images\icon-luxury.svg" alt="logo">
                     <h2>LUXURY</h2>
-                    <p>
-                        Cruise in the best car brand without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style
-                    </p>
-                    <button id="btn3">Learn more</button>
+                    <p>Cruise in the best car brand without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style</p>
+                    <button class="btn">Learn more</button>
                 </div>
             </div>
         </div>
