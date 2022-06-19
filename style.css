@@ -166,10 +166,12 @@ footer {
 
 @media only screen and (max-width: 375px) {
     main .container {
-        width: 50%;
+        width: 60%;
     }
     .container .place {
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
 
