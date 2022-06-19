@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +5,12 @@
 }
 
 body {
-/*     font-family: url(https://fonts.google.com/specimen/Lexend+Deca); */
-    background-color: hsl(0, 0%, 95%);
-    padding-bottom: 38px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+    position: relative;
 }
 
 header {
-    /* top: 0; */
-    position: fixed;
     width: 100%;
     display: flex;
     background-color: brown;
@@ -22,133 +18,140 @@ header {
     color: rgb(214, 187, 145);
 }
 
-li {
+header a {
     padding: 20px;
-}
-
-a {
     color: rgb(214, 187, 145);
-    text-decoration: none;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
 }
 
-a:hover {
+header a:hover {
     background: rgba(0, 0, 0, 0.288);
     box-shadow: rgba(0, 0, 0, 0.8);
     border-radius: 2px;
 }
 
-.position {
-    list-style: none;
+header .position {
     display: flex;
     margin-left: auto;
 }
 
-main {
-    margin: 0 auto;
-    padding-top: 50px;
-}
-
 main .container {
+    width: 60%;
+    margin: 8vh auto;
+}
+
+.container .place {
     display: flex;
-/*     background-color: red; */
-    /* width: 80%; */
-    justify-content: center;
-    margin: 0 auto;
-    padding: 50px 30px;
+    flex-direction: row;
+    flex: 1;
+    /* background-color: red; */
 }
 
-p {
-    padding: 5px;
-    color: hsla(0, 0%, 100%, 0.75);
-    /* font-weight: 400; */
-}
-
-h2 {
-    color: hsl(0, 0%, 95%);
-    font-weight: 700;
-}
-
-.place {
-    margin: 50px;
-}
-
-.sedan {
+.place .sedan {
+    padding: 40px;
     border-radius: 5px 0px 0px 5px;
-    width: 300px;
-    /* height: 400px; */
     background-color: hsl(31, 77%, 52%);
 }
 
-.suv {
-    width: 300px;
-    /* height: 400px; */
-    background-color: hsl(184, 100%, 22%);
+.place .sedan img {
+    padding-bottom: 30px;
 }
 
-.luxury {
-    width: 300px;
-    /* height: 400px; */
+.place .sedan h2 {
+    padding-bottom: 30px;
+}
+
+.place .sedan p {
+    line-height: 1.5;
+    padding-bottom: 70px;
+}
+
+.place .sedan button {
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    color: hsl(31, 77%, 52%);
+    border: 2px solid white;
+}
+
+.place .sedan button:hover {
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    /* border: 1px white solid; */
+}
+
+.place .suv {
+    padding: 40px;
+    background-color: hsl(184, 100%, 22%);
+    /* border: 1px solid black; */
+}
+
+.place .suv img {
+    padding-bottom: 30px;
+}
+
+.place .suv h2 {
+    padding-bottom: 30px;
+}
+
+.place .suv p {
+    line-height: 1.5;
+    padding-bottom: 70px;
+}
+
+.place .suv button {
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%);
+    border: 2px solid white;
+}
+
+.place .suv button:hover {
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+.place .luxury {
+    /* border: 1px solid black; */
+    padding: 40px;
     border-radius: 0px 5px 5px 0px;
     background-color: hsl(179, 100%, 13%);
 }
 
-#btn1 {
-    /* height: 50px; */
+.place .luxury img {
+    padding-bottom: 30px;
+}
+
+.place .luxury h2 {
+    padding-bottom: 30px;
+}
+
+.place .luxury p {
+    line-height: 1.5;
+    padding-bottom: 70px;
+}
+
+.place .luxury button {
     padding: 15px;
-    /* margin: auto; */
-    width: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 30px;
-    color: hsl(31, 77%, 52%);
-    border: none;
-    justify-content: center;
-    /* align-items: center; */
-    margin-top: 80px;
-}
-
-#btn1:hover {
-    background-color: hsl(31, 77%, 52%);
-    color: hsl(0, 0%, 95%);
-    border: 2px hsla(0, 0%, 95%, 0.712) solid;
-    cursor: pointer;
-}
-
-#btn2 {
-    /* height: 50px; */
-    padding: 15px;
-    width: 150px;
-    border: none;
-    border-radius: 30px;
-    color: hsl(184, 100%, 22%);
-    justify-content: center;
-    margin-top: 80px;
-}
-
-#btn2:hover {
-    background-color: hsl(184, 100%, 22%);
-    color: hsl(0, 0%, 95%);
-    cursor: pointer;
-    border: 2px hsla(0, 0%, 95%, 0.712) solid;
-}
-
-#btn3 {
-    /* height: 50px; */
-    padding: 15px;
-    width: 150px;
-    border-radius: 30px;
-    border: none;
-    justify-content: center;
-    margin-top: 80px;
+    border: 2px solid white;
     color: hsl(179, 100%, 13%);
+    ;
 }
 
-#btn3:hover {
-    background-color: hsl(179, 100%, 13%);
-    color: hsl(0, 0%, 95%);
+.place .luxury button:hover {
     cursor: pointer;
-    border: 2px hsla(0, 0%, 95%, 0.712) solid;
+    color: white;
+    background-color: hsl(179, 100%, 13%);
 }
 
 footer {
@@ -161,12 +164,12 @@ footer {
     width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-    .container {
-        width: 80%;
+@media only screen and (max-width: 375px) {
+    main .container {
+        width: 50%;
     }
-    .container .group {
-        width: 80%;
+    .container .place {
+        width: 100%;
     }
 }
 
@@ -178,7 +181,7 @@ footer {
     margin: 8vh auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
     .container2 {
         width: 80%;
     }
@@ -193,7 +196,6 @@ footer {
     padding: 10px 10px;
     background-color: rgba(0, 0, 0, 0.623);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.925);
-    backdrop-filter: blur(2px);
     border-radius: 5px;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -225,17 +227,13 @@ footer {
 
 .box2 {
     background-color: rgba(255, 217, 0, 0.664);
-    /* height: 250px; */
 }
 
 .box3 {
-    /* grid-row: span 2; */
-    /* height: 300px; */
     background-color: rgb(3, 167, 71);
 }
 
 .box4 {
-    /* height: 140px; */
     display: grid;
     grid-template-rows: 1fr 1fr;
     background-color: rgba(6, 226, 255, 0.808);
@@ -243,6 +241,5 @@ footer {
 }
 
 .box5 {
-    /* height: 150px; */
     background-color: rgba(6, 226, 255, 0.808);
 }
