@@ -69,9 +69,9 @@ main .container {
 }
 
 .place .sedan button {
-    padding: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 30px;
     color: hsl(31, 77%, 52%);
     border: 2px solid white;
@@ -104,9 +104,9 @@ main .container {
 }
 
 .place .suv button {
-    padding: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 30px;
     color: hsl(184, 100%, 22%);
     border: 2px solid white;
@@ -139,9 +139,9 @@ main .container {
 }
 
 .place .luxury button {
-    padding: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 30px;
     border: 2px solid white;
     color: hsl(179, 100%, 13%);
