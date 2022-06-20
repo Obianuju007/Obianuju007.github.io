@@ -38,7 +38,7 @@ header .position {
 }
 
 main {
-    max-height: calc(100vh - 40px)
+    max-height: calc(100vh - 40px);
 }
 main .container {
     width: 60%;
