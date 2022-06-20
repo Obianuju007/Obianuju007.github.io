@@ -66,11 +66,13 @@ main .container {
 
 .place .sedan h2 {
     padding-bottom: 30px;
+    color: white;
 }
 
 .place .sedan p {
     line-height: 1.5;
     padding-bottom: 70px;
+    color: white;
 }
 
 .place .sedan button {
@@ -101,11 +103,13 @@ main .container {
 
 .place .suv h2 {
     padding-bottom: 30px;
+    color: white;
 }
 
 .place .suv p {
     line-height: 1.5;
     padding-bottom: 70px;
+    color: white;
 }
 
 .place .suv button {
@@ -136,11 +140,13 @@ main .container {
 
 .place .luxury h2 {
     padding-bottom: 30px;
+    color: white;
 }
 
 .place .luxury p {
     line-height: 1.5;
     padding-bottom: 70px;
+    color: white;
 }
 
 .place .luxury button {
